@@ -134,6 +134,6 @@ app.get('*',(req,res) => {
 })
 
 //set the listening port for the app
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Server is up and running')
 })
