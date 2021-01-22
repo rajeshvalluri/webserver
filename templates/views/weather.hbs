@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/img/weather.png">
+    <body>
+        <div class="main-content">
+        {{>header}}
+         <h1> Weather Page</h1> 
+         <h1> {{city}}</h1>
+         <h2>Current Temperature: {{currTemp}}</h2>
+         <h2>Feels like: {{feelsLike}}</h2>
+        </div>
+        
+        {{>footer}}
+    </body>
+
+</head>
+
+</html>
