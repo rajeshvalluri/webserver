@@ -14,6 +14,7 @@ app.set('view engine','hbs')
 
 const appPath = path.join(__dirname,'../public')
 app.use(express.static(appPath)) 
+console.log(appPath)
 // This line tells node to get all html files from the public foldero
 
 const geocode = require('./utils/geocode')
