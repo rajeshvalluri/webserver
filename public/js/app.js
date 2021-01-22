@@ -20,7 +20,7 @@ weatherForm.addEventListener('submit', (e) => {
         }
         else {
             messageOne.textContent = data.city
-            messageTwo.textContent = data.currTemp + ',' + data.feelsLike
+            messageTwo.innerHTML = 'The current temperature is:' + data.currTemp +  '<br>It actually feels like:' + data.feelsLike
         }
     })
 })

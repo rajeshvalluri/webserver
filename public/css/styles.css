@@ -53,3 +53,12 @@ button {
     color: white;
     padding: 8px;
 }
+#message-1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#message-2 {
+    font-family: 'impact';
+    font-weight: bold;
+    color: blue
+}
